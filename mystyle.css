@@ -1,0 +1,95 @@
+
+.homebody{
+    /* text-align:center; */
+
+    background-image: url("Images/cool.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 20px;
+    border: 2px solid black;
+}
+body{
+    padding:30px;
+    border: 2px solid black;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+.accmwrapper{
+    text-align: center;
+    display: block;
+}
+.accmul{
+    list-style-type: none;
+    margin: 0;
+   padding: 0;
+}
+li a {
+    display: block;
+
+}
+h3{
+    font-size: 40px;
+    font-style: italic;
+    color: grey;
+}
+#accm{
+    font-size: 60px;
+    color:pink;
+}
+#homeheader{
+    font-size: 50px;
+    font-weight: bold;
+    color:orange;
+    padding-left: : 20px;
+    margin: 40px;
+}
+.homewrapper{
+    text-align:center;
+
+}
+
+a:link{
+    color:green;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    background-color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+a:active{
+    background-color: orange;
+}
+.homeul{
+    background-color: navy;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    list-style:url(Images/icn.png);
+    margin: 20px;
+}
+.homeul2{
+    background-color: navy;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    list-style:url(Images/icn.png);
+    margin: 20px;
+}
+ul > a{
+    color:red;
+}
+img{
+    border-style: outset;
+}
+@media screen and (min-width:480px){
+
+}
